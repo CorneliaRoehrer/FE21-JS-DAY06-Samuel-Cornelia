@@ -22,7 +22,7 @@
         let mydata1 = JSON.parse(sandwiches);
         let mydata2 = JSON.parse(fries);
 
-        console.log(mydata1);
+        console.table(mydata1);
         document.getElementById("outputLine").innerHTML = `My favorite sandwich is a ${mydata1.sandwich} which has approximately ${mydata1.calories} calories, along with it I enjoy eating ${mydata2.fries_size} which have about ${mydata2.calories} calories.`;
     </script>
 </body>

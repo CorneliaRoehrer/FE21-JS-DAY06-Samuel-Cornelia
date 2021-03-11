@@ -1,0 +1,72 @@
+let employees = `[{
+    "userID": "1",
+    "firstName": "Julia",
+    "lastName": "Jasmine",
+    "email": "jasmine@mail.com",
+    "jobTitle": "Backend Development",
+    "salary": "70000"
+}, {
+    "userID": "2",
+    "firstName": "Lyla",
+    "lastName": "Lilac",
+    "email": "lilac@mail.com",
+    "jobTitle": "Backend Development",
+    "salary": "70000"
+}, {
+    "userID": "3",
+    "firstName": "Tom",
+    "lastName": "Tulip",
+    "email": "tulip@mail.com",
+    "jobTitle": "Backend Development",
+    "salary": "70000"
+}, {
+    "userID": "4",
+    "firstName": "Jason",
+    "lastName": "Jabarosa",
+    "email": "jabarosa@mail.com",
+    "jobTitle": "Backend Development",
+    "salary": "70000"
+}, {
+    "userID": "5",
+    "firstName": "Alice",
+    "lastName": "Amaryllis",
+    "email": "amaryllis@mail.com",
+    "jobTitle": "Fullstack Development",
+    "salary": "90000"
+}, {
+    "userID": "6",
+    "firstName": "Heidi",
+    "lastName": "Hibiscus",
+    "email": "hibiscus@mail.com",
+    "jobTitle": "Fullstack Development",
+    "salary": "90000"
+}, {
+    "userID": "7",
+    "firstName": "Larry",
+    "lastName": "Lavender",
+    "email": "lavender@mail.com",
+    "jobTitle": "Frontend Development",
+    "salary": "60000"
+}, {
+    "userID": "8",
+    "firstName": "Kevin",
+    "lastName": "Kolkwitzia",
+    "email": "kolkwitzia@mail.com",
+    "jobTitle": "Frontend Development",
+    "salary": "60000"
+}, {
+    "userID": "9",
+    "firstName": "Jessica",
+    "lastName": "Jonquil",
+    "email": "jonquil@mail.com",
+    "jobTitle": "Frontend Development",
+    "salary": "60000"
+}, {
+    "userID": "10",
+    "firstName": "Maria",
+    "lastName": "Magnolia",
+    "email": "magnolia@mail.com",
+    "jobTitle": "Frontend Development",
+    "salary": "60000"
+}]
+`
