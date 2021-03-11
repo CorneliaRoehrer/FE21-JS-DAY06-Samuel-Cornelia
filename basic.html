@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Exercise</title>
+</head>
+<body>
+    
+    <div>
+        <p id="outputLine"></p>
+    </div>
+
+    <script>
+        var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+        var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+
+        // wieso funktioniert Zeile 20 nicht, wenn wir outputLine in Zeile 25 benutzen (function statt let?)
+        // let outputLine = document.getElementById("outputLine").innerHTML;
+        
+        let mydata1 = JSON.parse(sandwiches);
+        let mydata2 = JSON.parse(fries);
+
+        console.log(mydata1);
+        document.getElementById("outputLine").innerHTML = `My favorite sandwich is a ${mydata1.sandwich} which has approximately ${mydata1.calories} calories, along with it I enjoy eating ${mydata2.fries_size} which have about ${mydata2.calories} calories.`;
+    </script>
+</body>
+</html>
